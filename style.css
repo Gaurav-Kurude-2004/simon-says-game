@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+.main{
+    height: 200px;
+    width: 200px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    gap : 10px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: solid black 4px;
+    border-radius: 15px;
+    display: inline;
+    
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
