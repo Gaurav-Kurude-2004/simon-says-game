@@ -5,7 +5,7 @@ let level = 0;
 let highScore = 0;
 let btns = ["red","blue","black","green"];
 let h2 = document.querySelector('h2');
-document.addEventListener("keypress", ()=>{
+document.addEventListener('click', ()=>{
    if(started==false){
       console.log("game is started");
       started = true;
